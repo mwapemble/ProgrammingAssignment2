@@ -12,7 +12,7 @@ makeCacheMatrix <- function(x = matrix()) {
   ## Initialise variable
   i <- NULL
   
-  ## set sub.function sets value into parent environment variable x and NULL in to parent environment variable y
+  ## set sub.function sets value into parent environment variable x and NULL in to parent environment variable i
   set <- function(y) {
     x <<- y
     i <<- NULL
