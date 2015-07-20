@@ -5,7 +5,8 @@
 ## & storage, rather than taking the mean of a vector.
 
 ## Takes a matrix, x, and sets it in to the parent environment as a list of functions
-## Initially, the inverse is NULL
+## set, get, setinverse & getinverse
+## Initially, the inverse is set to NULL
 
 makeCacheMatrix <- function(x = matrix()) {
   ## Initialise variable
